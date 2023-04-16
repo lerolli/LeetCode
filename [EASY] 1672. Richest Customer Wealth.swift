@@ -1,4 +1,5 @@
-/* Для себя
+/* 
+* Для себя
 * Решил использовать reduce, потому что идеально тут подходит. 
 * После reduce применяю max() и получаю максимальное значение.
 * Задачка оказалась простой
@@ -9,6 +10,3 @@ class Solution {
         return accounts.map { $0.reduce(0, +) }.max() ?? 0
     }
 }
-
-var solution = Solution()
-print(solution.maximumWealth([]))
