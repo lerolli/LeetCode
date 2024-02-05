@@ -11,6 +11,3 @@ class Solution {
         return answer
     }
 }
-
-let solution = Solution()
-solution.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
